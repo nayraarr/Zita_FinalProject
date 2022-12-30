@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+        <title> ecisco </title>
+		
+		<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+	
+    <body>
+        <div class="first">
+            <header>
+                <a href="#" class="logo"> ecisco </a>
+
+                <ul>
+                    <li><a href="#" class="active"> Home </a></li>
+                    <li><a href="#sec"> List </a></li>
+                    <li><a href="#third"> Audio </a></li>
+                    <li><a href="#" onclick="return myFunction();"> Buy Our Books! </a></li>
+                    <li><a href="#fourth"> About Us </a></li>
+                </ul>
+                
+            </header>
+
+            <section>
+                <h2 id="h2_title"> Welcome to our huge fairy tales library! </h2>
+                <a href="#sec" class="btn" id="btn1"> Start Reading </a>
+                <a href="#third" class="btn" id="btn2"> Start Listening </a>
+            </section>
+            
+        </div>
+
+        <div style="height: 50px; width: 100%; color: black; background-image: linear-gradient(#ef9de9, #faafcd);" class="gradasi"></div>
+
+        <div class="bg_linear">
+          <div class="container py-4" id="sec">
+            <h1 id="sec_h1" style="text-align: center;">Famous Fairy Tales</h1>
+            
+            <div class="p-5 mb-4 bg-light rounded-3">
+              <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Snow White and the Seven Dwarfs</h1>
+                <p class="col-md-8 fs-4">Once upon a time in the middle of winter, when the flakes of snow were falling like feathers from the clouds, ...</p>
+                <button class="btn btn-primary btn-lg" type="button">Read here</button>
+              </div>
+            </div>
+        
+            <div class="row align-items-md-stretch">
+              <div class="col-md-6">
+                <div class="h-100 p-5 text-bg-dark rounded-3">
+                  <img src="fairy2.jpg" class="fairy_img" width=400px height=300px alt="The Little Mermaid Image">
+                  </img>
+                  <h2>The Little Mermaid</h2>
+                  <p>Far out in the ocean, where the water is as blue as the prettiest cornflower and as clear as crystal, it is very, very deep; so deep, indeed, that no cable could sound it, and many church steeples, piled one upon another, ...</p>
+                  <button class="btn btn-outline-light" type="button">Read here</button>
+                </div>
+              </div>
+        
+              <div class="col-md-6">
+                <div class="h-100 p-5 bg-light border rounded-3">
+                  <img src="fairy5.jpg" class="fairy_img" width=400px height=300px alt="Ali Baba and the Forty Thieves Image">
+                  </img>
+                  <h2> Beauty and the Beast </h2>
+                  <p>Once upon a time there was a rich merchant, who had three daughters. They lived in a very fine house in a beautiful city, and had many servants in grand liveries to wait upon them. ...</p>
+                  <button class="btn btn-outline-secondary" type="button">Read here</button>
+                </div>
+              </div>
+        
+            </div>
+          </div>
+        
+          <div class="container py-4">
+            <div class="p-5 mb-4 bg-light rounded-3">
+              <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Ali Baba and the Forty Thieves</h1>
+                <p class="col-md-8 fs-4">There once lived in a town of Persia two brothers, one named Cassim and the other Ali Baba. Their father divided a small inheritance equally between them, ...</p>
+                <button class="btn btn-primary btn-lg" type="button">Read here</button>
+              </div>
+            </div>
+            
+            <div class="row align-items-md-stretch" id="gradasi2">
+              <div class="col-md-6">
+                <div class="h-100 p-5 text-bg-dark rounded-3">
+                  <img src="fairy4.jpg" class="fairy_img" width=400px height=300px alt="The Little Mermaid Image">
+                  </img>
+                  <h2>Hansel and Gretel</h2>
+                  <p>Near the borders of a large forest dwelt in olden times a poor wood-cutter, who had two children—a boy named Hansel, and his sister, Gretel. ...</p>
+                  <button class="btn btn-outline-light" type="button">Read here</button>
+                </div>
+              </div>
+        
+              <div class="col-md-6">
+                <div class="h-100 p-5 bg-light border rounded-3">
+                  <img src="fairy6.jpg" class="fairy_img" width=400px height=300px alt="Ali Baba and the Forty Thieves Image">
+                  </img>
+                  <h2> The Snow Queen </h2>
+                  <p>One day when he was in a merry mood he made a looking-glass which had the power of making everything good or beautiful that was reflected in it shrink almost to nothing. ...</p>
+                  <button class="btn btn-outline-secondary" type="button">Read here</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        
+
+         <div class="third" id="third">
+            <h2 id="third_h1">Some of stories that you can listen to<3</h2>
+
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4aFA7eB7zkaC81fihjF57E?utm_source=generator&t=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="spotify" id="spotify1"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3dOhGff7KK15dyitcmp7vu?utm_source=generator&t=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="spotify"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1E2VdifkaUU1jfJQLA9uLg?utm_source=generator&t=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="spotify"></iframe>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/7E6l1vjLNitb8wwTLq61S1?utm_source=generator&t=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" class="spotify"></iframe>
+         </div>
+        </div>
+
+        <footer class="footer" id="fourth">
+            <div class="footer_text">
+              <h2 id="about_us">About Us</h2> <hr>
+              <p>Ecisco was founded in 2022 with the aim of creating a large, easily-accessible library of free-to-read quality stories, poems, fairy tales and comics for children. Ecisco offers both classic and contemporary stories in an easy-to-read format with vibrant illustrations designed to excite children and engage them around reading. </p>
+            </div>
+        
+            <div class="social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-snapchat"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-facebook"></i></a>
+            </div>
+        
+            <ul class="list">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              
+              <li>
+                <a href="#">Services</a>
+              </li>
+        
+              <li>
+                <a href="#">About</a>
+              </li>
+        
+              <li>
+                <a href="#">Terms</a>
+              </li>
+        
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ul>
+        
+            <p class="copyright" >
+              <span style="font-family: Homemade Apple; font-size: larger;"> ecisco </span> @ 2022
+            </p>
+        </footer>
+
+        <script>
+            function myFunction() {
+                alert("Shop is not available for now :("); 
+            }
+        </script>
+    </body>
+</html>
